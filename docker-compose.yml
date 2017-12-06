@@ -51,4 +51,7 @@ services:
         image: scpman/solr:4.6.0
         ports:
             - "8081:8080"
+        volumes:
+            - "./solr:/solr/data/solr"
+
         tty: true
