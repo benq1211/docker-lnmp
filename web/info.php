@@ -1,0 +1,5 @@
+
+ier
+<?php
+	phpinfo();
+?>
